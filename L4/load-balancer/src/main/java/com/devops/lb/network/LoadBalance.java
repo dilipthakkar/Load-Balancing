@@ -72,8 +72,6 @@ public class LoadBalance {
                 thread1.join();
                 thread2.join();
 
-                System.out.println(" I AM DONE ");
-
             } catch (IOException | InterruptedException e) {
                 e.printStackTrace();
             }
